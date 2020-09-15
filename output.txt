@@ -1,0 +1,120 @@
+Mean for C: 5184.663
+Mean for D: -0.0348
+Mean for E: 15.4567
+Mean for F: 5.92
+Midrange for C: 5076.0
+Midrange for D: -1.663
+Midrange for E: 10.8582
+Midrange for F: 6.5
+Mode for C: Modes are: 6930, 589 its's Bimodal
+Mode for D: No mode found
+Mode for E: No mode found
+Mode for F: Mode is: 6 it's Unimodal
+Max of C: 9996
+Min of C: 78
+Median of C: 5180.0
+25th percentile of C: 2795.5
+75th percentile of C: 7557.25
+Max of D: 3.2708
+Min of D: -3.2984
+Median of D: -0.0454
+25th percentile of D: -0.7186
+75th percentile of D: 0.6769
+Max of E: 54.7065
+Min of E: -16.4951
+Median of E: 15.4411
+25th percentile of E: 8.5649
+75th percentile of E: 22.4839
+Max of F: 11
+Min of F: 1
+Median of F: 6.0
+25th percentile of F: 3.0
+75th percentile of F: 9.0
+                 C            D            E            F
+count  1000.000000  1000.000000  1000.000000  1000.000000
+mean   5184.663000    -0.034769    15.456746     5.920000
+std    2854.099045     1.001588    10.050440     3.122074
+min      78.000000    -3.298415   -16.495096     1.000000
+25%    2795.500000    -0.718631     8.564863     3.000000
+50%    5180.000000    -0.045414    15.441078     6.000000
+75%    7557.250000     0.676918    22.483888     9.000000
+max    9996.000000     3.270827    54.706505    11.000000
+
+Least Dissimilar to p when using Euclidean Distance is Row: 529
+C    518.000000
+D      2.093137
+E      5.530146
+F     11.000000
+Name: 529, dtype: float64
+
+Least Dissimilar to p when using Manhattan Distance is Row: 529
+C    518.000000
+D      2.093137
+E      5.530146
+F     11.000000
+Name: 529, dtype: float64
+
+Least Dissimilar to p when using Supremum Distance is Row: 529
+C    518.000000
+D      2.093137
+E      5.530146
+F     11.000000
+Name: 529, dtype: float64
+
+Least Dissimilar to p when using Cosine Distance is Row: 207
+C    193.000000
+D      0.225055
+E     -3.918029
+F     11.000000
+Name: 207, dtype: float64
+Least Dissimilar to p when using Euclidean Distance after normalizing both dataframes is Row: 207
+C    0.9997
+D    0.0040
+E    0.0107
+F    0.0212
+Name: 529, dtype: float64
+Normalizing column C using Min-Max Scaling Normalization with range[-1.0,1.0]:
+          C
+0   -0.8213
+1    0.0615
+2    0.4493
+3    0.1512
+4   -0.4332
+..      ...
+995 -0.9226
+996  0.4533
+997  0.7443
+998 -0.5836
+999 -0.7534
+
+[1000 rows x 1 columns]
+Normalizing column C using Z-Score Normalization:
+          C
+0   -1.4795
+1    0.0552
+2    0.7293
+3    0.2111
+4   -0.8047
+..      ...
+995 -1.6555
+996  0.7363
+997  1.2421
+998 -1.0663
+999 -1.3614
+
+[1000 rows x 1 columns]
+Normalizing column C using Decimal Scaling Normalization:
+             C
+0     9.64e-24
+1    5.342e-23
+2    7.265e-23
+3    5.787e-23
+4    2.889e-23
+..         ...
+995   4.62e-24
+996  7.285e-23
+997  8.728e-23
+998  2.143e-23
+999  1.301e-23
+
+[1000 rows x 1 columns]
